@@ -6,6 +6,10 @@ import { EighthgubComponent } from './components/graduations/eighthgub/eighthgub
 
 export const routes: Routes = [
   {
+    path: '',
+    component: HomeComponent
+  },
+  {
     path: 'graduacoes',
     component: HomeComponent
   },
