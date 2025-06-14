@@ -10,5 +10,5 @@
   },
   "include": [
     "src/**/*.ts"
-, "main.ts"  ]
+, "src/app/main.ts"  ]
 }
