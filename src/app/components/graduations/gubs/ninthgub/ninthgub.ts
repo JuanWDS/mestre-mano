@@ -10,6 +10,7 @@ import { GubsComponent } from '../gubs';
 })
 export class NinthgubComponent extends GubsComponent {
   override belt = '9° Gub - Faixa Cinza - "Início"';
+  override abstract = 'Representa o abandono da pureza e da inocência. O aluno está conhecendo os fundamentos do Taekwondo.';
   override poomsae = 'Poomsae - 품새 - "Formas":';
 
   constructor(router: Router) {

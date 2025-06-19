@@ -9,6 +9,7 @@ import { Router } from '@angular/router';
 })
 export class GubsComponent {
   belt = '';
+  abstract = '';
   poomsae = '';
   kibonJase = 'Kibon Jase - 기본 자세 - "Posições Básicas":';
   kibonDongjak = 'Kibon Dongjak - 기본 동작 - "Movimentos Básicos":';
