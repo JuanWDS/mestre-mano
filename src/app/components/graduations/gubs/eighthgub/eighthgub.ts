@@ -4,12 +4,12 @@ import { MatListModule } from '@angular/material/list';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-tenthgub',
+  selector: 'app-eighthgub',
   imports: [MatListModule, MatCardModule],
-  templateUrl: './tenthgub.html',
-  styleUrl: './tenthgub.css'
+  templateUrl: './eighthgub.html',
+  styleUrl: '../gubs.css'
 })
-export class TenthgubComponent {
+export class EighthgubComponent {
 
   constructor(private router: Router) {}
 
