@@ -9,7 +9,8 @@ import { GubsComponent } from '../gubs';
   styleUrl: '../gubs.css'
 })
 export class EighthgubComponent extends GubsComponent {
-  override belt = '8° Gub - Faixa Amarela - "Terra"';
+  override belt = '8° Gub - Faixa Amarela - "Terra Fértil"';
+  override abstract = 'Marca a preparação das bases. O aluno começa a compreender os fundamentos do Taekwondo.';
   override poomsae = 'Poomsae Taeguk - 태극 품새 - "Formas de Equilíbrio e Harmonia":';
 
   constructor(router: Router) {
@@ -17,7 +18,7 @@ export class EighthgubComponent extends GubsComponent {
   };
 
   override poomsaeList = [
-    { name: 'Poomsae Taeguk Il Jang - "Céu"', description: '1장 - Keon ☰' }
+    { name: 'Poomsae Taeguk Il Jang - "Céu" - 1장 - ☰', description: 'O primeiro poomsae. Representa o nascimento, o começo de tudo, como o céu limpo. O praticante começa seu caminho com humildade e mente aberta.' }
   ];
 
   override kibonJaseList = [

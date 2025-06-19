@@ -11,16 +11,20 @@ export class GraduationsComponent {
 
   constructor(private router: Router) {}
 
-  goToDecimogub(){
+  goToTenthgub(): void {
     this.router.navigateByUrl('/graduacoes/decimogub');
   };
 
-  goToNonogub(){
+  goToNingthgub(): void {
     this.router.navigateByUrl('/graduacoes/nonogub');
   };
 
-  goToOitavogub(){
+  goToEighthgub(): void {
     this.router.navigateByUrl('/graduacoes/oitavogub');
+  };
+
+  goToSeventhgub(): void {
+    this.router.navigateByUrl('/graduacoes/setimogub');
   };
 
 }

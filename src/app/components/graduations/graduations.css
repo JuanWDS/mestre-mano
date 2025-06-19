@@ -77,6 +77,10 @@
   background-color: #eded01;
 }
 
+#orange {
+  background-color: #ff9900;
+}
+
 .graduation-container-belts-button:hover,
 .graduation-container-belts-button:focus {
   transform: scale(1.05);
