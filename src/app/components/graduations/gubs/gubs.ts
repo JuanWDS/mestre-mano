@@ -17,33 +17,19 @@ export class GubsComponent {
   konKyok = 'Kon Kyok - 콜국 - "Técnicas de Ataque com os Braços":';
   iron = 'Iron - 이론 - "Conhecimento teórico":';
 
-  constructor(
-    private router: Router,
-  ) {};
+  constructor(private router: Router) {};
 
-  poomsaeList = [
-    { name: '', description: '' }
-  ];
+  poomsaeList: { name: string; description: string }[] = [];
 
-  kibonJaseList = [
-    { name: '', description: '' }
-  ];
+  kibonJaseList: { name: string; description: string }[] = [];
 
-  makkiList = [
-    { name: '', description: '' }
-  ];
+  makkiList: { name: string; description: string }[] = [];
 
-  konKyokList = [
-    { name: '', description: '' }
-  ];
+  konKyokList: { name: string; description: string }[] = [];
 
-  balKiSulList = [
-    { name: '', description: '' }
-  ];
+  balKiSulList: { name: string; description: string }[] = [];
 
-  ironList = [
-    { question: '' }
-  ];
+  ironList: { question: string }[] = [];
 
   goToGraduations(){
     this.router.navigateByUrl('/graduacoes');
