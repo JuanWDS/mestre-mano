@@ -1,4 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+html {
+  height: 100%;
+  background-image:
+    url('../public/wallpaper-fight.png'),
+    radial-gradient(circle, #888888, #2b2a2a);
+  background-position: top;
 
-html, body { height: 100%; background: #B8BCB7; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+  @media screen and (max-width: 720px) {
+    background-size: contain;
+    background-position: top;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
