@@ -1,0 +1,81 @@
+<div class="belts-container">
+
+  <button (click)="goToGraduations()">Retornar para a lista de Graduações</button>
+
+  <h1>{{ belt }}</h1>
+
+  <div>
+
+    <h2>{{ poomsae }}</h2>
+    <ul>
+      @for (techniques of poomsaeList; track techniques) {
+        <li>
+          <b>{{ techniques.name }}</b> - {{ techniques.description }}
+        </li>
+      }
+    </ul>
+
+  </div><hr>
+
+  <div>
+
+    <h2>{{ kibonDongjak }}</h2>
+    <ul>
+      @for (techniques of kibonJaseList; track techniques) {
+        <li>
+          <b>{{ techniques.name }}</b> - {{ techniques.description }}
+        </li>
+      }
+    </ul>
+
+  </div><hr>
+
+  <div>
+
+    <h2> {{ kibonDongjak }}</h2>
+
+    <h3>{{ makki }}</h3>
+    <ul>
+      @for (techniques of makkiList; track techniques) {
+        <li>
+          <b>{{ techniques.name }}</b> - {{ techniques.description }}
+        </li>
+      }
+    </ul>
+
+    <h3>{{ konKyok }}</h3>
+    <ul>
+      @for (techniques of konKyokList; track techniques) {
+        <li>
+          <b>{{ techniques.name }}</b> - {{ techniques.description }}
+        </li>
+      }
+    </ul>
+
+    <h3>{{ balKiSul }}</h3>
+    <ul>
+      @for (techniques of balKiSulList; track techniques) {
+        <li>
+          <b>{{ techniques.name }}</b> - {{ techniques.description }}
+        </li>
+      }
+    </ul>
+
+  </div><hr>
+
+  <div>
+
+    <h2>{{ iron }}</h2>
+    <ul>
+      @for (knowledge of ironList; track knowledge) {
+        <li>
+          {{ knowledge.question }}
+        </li>
+      }
+    </ul>
+
+  </div><hr>
+
+  <button (click)="goToGraduations()">Retornar para a lista de Graduações</button>
+
+</div>
