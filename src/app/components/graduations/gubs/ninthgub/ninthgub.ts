@@ -41,7 +41,7 @@ export class NinthgubComponent extends GubsComponent {
 
   override konKyokList = [
     { name: 'Arae Jireugi', description: 'Soco na parte baixa (abaixo da cintura).' },
-    { name: 'Montong Jireugi', description: 'Soco na parte média (torso).' },
+    { name: 'Momtong Jireugi', description: 'Soco na parte média (torso).' },
     { name: 'Olgul Jireugi', description: 'Soco na parte alta (acima dos ombros).' },
     { name: 'Bande Jireugi', description: 'Soco com o mesmo braço da perna à frente.' },
     { name: 'Baro Jireugi', description: 'Soco com o braço oposto à perna da frente.' }
