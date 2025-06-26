@@ -31,13 +31,13 @@ export class TenthgubComponent extends GubsComponent {
     { name: 'Palmok Arae Makki', description: 'Defesa com o antebraço na parte baixa (abaixo da cintura).' },
     { name: 'Palmok Momtong Makki', description: 'Defesa com o antebraço na parte média (torso).' },
     { name: 'Palmok Olgul Makki', description: 'Defesa com o antebraço na parte alta (acima dos ombros).' },
-    { name: 'Hechyo Arae Makki', description: 'Defesa com os dois antebraços (ao mesmo tempo) na parte baixa (abaixo da cintura).' }
+    { name: 'Retchyo Arae Makki', description: 'Defesa com os dois antebraços (ao mesmo tempo) na parte baixa (abaixo da cintura).' }
   ];
 
   override konKyokList = [
-    { name: 'Arae Jireugi', description: 'Soco na parte baixa (abaixo da cintura).' },
-    { name: 'Momtong Jireugi', description: 'Soco na parte média (torso).' },
-    { name: 'Olgul Jireugi', description: 'Soco na parte alta (acima dos ombros).' }
+    { name: 'Arae Djireugi', description: 'Soco na parte baixa (abaixo da cintura).' },
+    { name: 'Momtong Djireugi', description: 'Soco na parte média (torso).' },
+    { name: 'Olgul Djireugi', description: 'Soco na parte alta (acima dos ombros).' }
   ];
 
   override balKiSulList = [
@@ -45,7 +45,7 @@ export class TenthgubComponent extends GubsComponent {
     { name: 'Ap Chagi', description: 'Chute frontal.' },
     { name: 'Ap Oligui Chagi', description: 'Chute frontal com a perna esticada (subida e descida).' },
     { name: 'An Chagi', description: 'Chute de fora para dentro.' },
-    { name: 'Bakat Chagi', description: 'Chute de dentro para fora.' }
+    { name: 'Pakat Chagi', description: 'Chute de dentro para fora.' }
   ];
 
   override ironList = [
