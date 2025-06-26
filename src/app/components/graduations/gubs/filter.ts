@@ -47,43 +47,43 @@ let faixaList = [
 
 let poomsaeList = [
   {
-    name: 'Poomsae Taeguk Il Jang - "Céu" - 1장 - ☰',
+    name: 'Poomsae Taegeuk Il Jang - "Céu" - 1장 - ☰',
     meaning: '☰ Céu / Luz',
     description: 'O primeiro poomsae. Representa o nascimento, o começo de tudo, como o céu limpo. O praticante começa seu caminho com humildade e mente aberta.'
   },
   {
-    name: 'Poomsae Taeguk Ee Jang - "Lago" - 2장 - ☱',
+    name: 'Poomsae Taegeuk Ee Jang - "Lago" - 2장 - ☱',
     meaning: '☱ Lago / Serenidade',
     description: 'Simboliza tranquilidade e calma. O aluno desenvolve disciplina e autocontrole, executando os movimentos com fluidez.'
   },
   {
-    name: 'Poomsae Taeguk Sam Jang - "Fogo" - 3장 - ☲',
+    name: 'Poomsae Taegeuk Sam Jang - "Fogo" - 3장 - ☲',
     meaning: ' Fogo / Clareza',
     description: 'Representa energia e paixão. Os movimentos tornam-se mais complexos, e o aluno começa a brilhar com autoconfiança.'
   },
   {
-    name: 'Taeguk Sa Jang - "Trovão" - 4장 - ☳',
+    name: 'Taegeuk Sa Jang - "Trovão" - 4장 - ☳',
     meaning: '☳ Trovão / Ação',
     description: 'Simboliza dinamismo e ação repentina. O aluno aprende a reagir com rapidez e precisão, incorporando força e foco.'
   },
   {
-    name: 'Taeguk Oh Jang - "Vento" - 5장 - ☴',
+    name: 'Taegeuk Oh Jang - "Vento" - 5장 - ☴',
     meaning: '☴ Vento / Crescimento',
     description: 'Representa flexibilidade e persistência. Os movimentos combinam suavidade com força, refletindo maturidade técnica.'
   },
   {
-    name: 'Taeguk Yuk Jang - "Água" - 6장 - ☵',
+    name: 'Taegeuk Yuk Jang - "Água" - 6장 - ☵',
     meaning: '☵ Água / Adaptação',
     description: 'Simboliza fluidez, inteligência e estratégia. O praticante aprende a se adaptar com leveza, mesmo diante de desafios.'
   },
   {
-    name: 'Taeguk Chil Jang - "Montanha" - 7장 - ☶',
+    name: 'Taegeuk Chil Jang - "Montanha" - 7장 - ☶',
     meaning: '☶ Montanha / Estabilidade',
     description: 'Representa firmeza e autocontrole. Os movimentos são mais fortes e calmos, expressando domínio interno e externo.'
   },
   {
-    name: 'Taeguk Pal Jang - "Terra" - 8장 - ☷',
+    name: 'Taegeuk Pal Jang - "Terra" - 8장 - ☷',
     meaning: '☷ Terra / Final e recomeço',
-    description: 'O último dos Taeguks. Simboliza a base sólida, o retorno à origem. Marca o fim da fase inicial e a preparação para a faixa preta.'
+    description: 'O último dos Taegeuks. Simboliza a base sólida, o retorno à origem. Marca o fim da fase inicial e a preparação para a faixa preta.'
   }
 ];
