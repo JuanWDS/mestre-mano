@@ -19,7 +19,7 @@ export class NinthgubComponent extends GubsComponent {
 
   override poomsaeList = [
     { name: 'Saju Ap Chagi', description: 'Chute frontal em quatro direções.' },
-    { name: 'Saju Jireugi', description: 'Soco em quatro direções.' }
+    { name: 'Saju Djireugi', description: 'Soco em quatro direções.' }
   ];
 
   override kibonJaseList = [
@@ -33,26 +33,26 @@ export class NinthgubComponent extends GubsComponent {
     { name: 'Palmok Arae Makki', description: 'Defesa com o antebraço na parte baixa (abaixo da cintura).' },
     { name: 'Palmok Momtong Makki', description: 'Defesa com o antebraço na parte média (torso).' },
     { name: 'Palmok Olgul Makki', description: 'Defesa com o antebraço na parte alta (acima dos ombros).' },
-    { name: 'Hechyo Arae Makki', description: 'Defesa com os dois antebraços (ao mesmo tempo) na parte baixa (abaixo da cintura).' },
-    { name: 'Palmok Otgeoreo Arae Makki', description: 'Defesa com os dois antebraços cruzados na parte baixa (abaixo da cintura).' },
-    { name: 'Palmok Otgeoreo Olgul Makki', description: 'Defesa com os dois antebraços cruzados na parte alta (acima dos ombros).' }
+    { name: 'Retchyo Arae Makki', description: 'Defesa com os dois antebraços (ao mesmo tempo) na parte baixa (abaixo da cintura).' },
+    { name: 'Palmok Otchigoreo Arae Makki', description: 'Defesa com os dois antebraços cruzados na parte baixa (abaixo da cintura).' },
+    { name: 'Palmok Otchigoreo Olgul Makki', description: 'Defesa com os dois antebraços cruzados na parte alta (acima dos ombros).' }
   ];
 
   override konKyokList = [
-    { name: 'Arae Jireugi', description: 'Soco na parte baixa (abaixo da cintura).' },
-    { name: 'Momtong Jireugi', description: 'Soco na parte média (torso).' },
-    { name: 'Olgul Jireugi', description: 'Soco na parte alta (acima dos ombros).' },
-    { name: 'Bande Jireugi', description: 'Soco com o mesmo braço da perna à frente.' },
-    { name: 'Baro Jireugi', description: 'Soco com o braço oposto à perna da frente.' }
+    { name: 'Arae Djireugi', description: 'Soco na parte baixa (abaixo da cintura).' },
+    { name: 'Momtong Djireugi', description: 'Soco na parte média (torso).' },
+    { name: 'Olgul Djireugi', description: 'Soco na parte alta (acima dos ombros).' },
+    { name: 'Bande Djireugi', description: 'Soco com o mesmo braço da perna à frente.' },
+    { name: 'Baro Djireugi', description: 'Soco com o braço oposto à perna da frente.' }
   ];
 
   override balKiSulList = [
-    { name: 'Bandal Chagi', description: 'Chute em meia-lua.' },
+    { name: 'Bandal Chagi', description: 'Chute em semi-circular.' },
     { name: 'Ap Chagi', description: 'Chute frontal.' },
     { name: 'Ap Oligui Chagi', description: 'Chute frontal com a perna esticada (subida e descida).' },
     { name: 'Yop Oligui Chagi', description: 'Chute lateral com a perna esticada (subida e descida).' },
     { name: 'An Chagi', description: 'Chute de fora para dentro.' },
-    { name: 'Bakat Chagi', description: 'Chute de dentro para fora.' },
+    { name: 'Pakat Chagi', description: 'Chute de dentro para fora.' },
     { name: 'Dollyo Chagi', description: 'Chute circular.' }
   ];
 
