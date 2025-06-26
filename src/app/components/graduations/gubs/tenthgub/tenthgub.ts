@@ -23,8 +23,8 @@ export class TenthgubComponent extends GubsComponent {
 
   override kibonJaseList = [
     { name: 'Moa Sogi', description: 'Base com os pés juntos.' },
-    { name: 'Ap Chuk Moa Sogi', description: 'Base com a frente dos pés juntas.' },
-    { name: 'Dwi Chuk Moa Sogi', description: 'Base com os calcanhares juntos.' },
+    { name: 'Pioni Sogi', description: 'Base com os pés levemente abertos e afastados na largura da cintura.' },
+    { name: 'Naran Sogi', description: 'Base com os pés paralelos afastados na largura da cintura.' },
   ];
 
   override makkiList = [

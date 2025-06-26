@@ -35,7 +35,6 @@ export class EighthgubComponent extends GubsComponent {
   ];
 
   override konKyokList = [
-    { name: 'Dubon Jireugi', description: 'Dois socos com as duas mãos à frente.' },
     { name: 'Sonnal Momtong Chigi', description: 'Golpe com a faca da mão (parte de fora da mão) na parte média (torso)' },
     { name: 'Sonnal Dung Momtong Chigi', description: 'Golpe com o dorso da faca da mão (parte de dentro da mão) na parte média (torso)' }
   ];
@@ -47,6 +46,8 @@ export class EighthgubComponent extends GubsComponent {
   ];
 
   override ironList = [
+    { question: 'Qual a capital do Taekwondo?' },
+    { question: 'Quem trouxe o Taekwondo para o Brasil?' },
     { question: 'Qual o significado do Taeguk Il Jang?' },
     { question: 'Qual o significado da sua Faixa?' }
   ];

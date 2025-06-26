@@ -24,11 +24,9 @@ export class NinthgubComponent extends GubsComponent {
 
   override kibonJaseList = [
     { name: 'Moa Sogi', description: 'Base com os pés juntos.' },
-    { name: 'Ap Chuk Moa Sogi', description: 'Base com a frente dos pés juntas.' },
-    { name: 'Dwi Chuk Moa Sogi', description: 'Base com os calcanhares juntos.' },
-    { name: 'Pioni Sogi', description: 'Base com os pés paralelos afastados na largura da cintura.' },
+    { name: 'Pioni Sogi', description: 'Base com os pés levemente abertos e afastados na largura da cintura.' },
+    { name: 'Naran Sogi', description: 'Base com os pés paralelos afastados na largura da cintura.' },
     { name: 'Ap Kubi Sogi', description: 'Base de avanço com o joelho da frente flexionado e o de trás esticado.' },
-    { name: 'Juchum Sogi', description: 'Base com os pés paralelos e joelhos levemente flexionados afastados além da largura dos ombros (base do cavalo).' }
   ];
 
   override makkiList = [
@@ -52,15 +50,16 @@ export class NinthgubComponent extends GubsComponent {
     { name: 'Bandal Chagi', description: 'Chute em meia-lua.' },
     { name: 'Ap Chagi', description: 'Chute frontal.' },
     { name: 'Ap Oligui Chagi', description: 'Chute frontal com a perna esticada (subida e descida).' },
+    { name: 'Yop Oligui Chagi', description: 'Chute lateral com a perna esticada (subida e descida).' },
     { name: 'An Chagi', description: 'Chute de fora para dentro.' },
     { name: 'Bakat Chagi', description: 'Chute de dentro para fora.' },
-    { name: 'Dollyo Chagi', description: 'Chute circular.' },
-    { name: 'Yop Chagi', description: 'Chute lateral.' }
+    { name: 'Dollyo Chagi', description: 'Chute circular.' }
   ];
 
   override ironList = [
-    { question: 'Qual a capital do Taekwondo?' },
-    { question: 'Quem trouxe o Taekwondo para o Brasil?' },
+    { question: 'O que significa Taekwondo?' },
+    { question: 'Qual o nome do seu Mestre?' },
+    { question: 'Qual o nome da sua Escola?' },
     { question: 'Quais são os princípios do Taekwondo?' }
   ];
 
