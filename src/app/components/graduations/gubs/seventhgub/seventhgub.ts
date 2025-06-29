@@ -9,8 +9,8 @@ import { Router } from '@angular/router';
   styleUrl: '../gubs.css'
 })
 export class SeventhgubComponent extends GubsComponent {
-  override belt = '7° Gub - Faixa Laranja - "Terra Arada"';
-  override abstract = 'A preparação está feita. O aluno assimila melhor os fundamentos e está pronto para crescer.';
+  override belt = '7° Gub - Faixa Laranja - Esperança';
+  override abstract = 'A Terra foi arada. A preparação está feita. O aluno assimila melhor os fundamentos e está pronto para crescer.';
   override poomsae = 'Poomsae Taegeuk - 태극 품새 - "Formas de Equilíbrio e Harmonia":';
 
   constructor(router: Router) {
@@ -34,7 +34,7 @@ export class SeventhgubComponent extends GubsComponent {
   ];
 
   override balKiSulList = [
-    { name: 'Dubon Bandal', description: 'Dois chutes semi-circulares com pernas alternadas.' }
+    { name: 'Dubon Bandal Tchagi', description: 'Dois chutes semi-laterais com pernas alternadas.' }
   ];
 
   override ironList = [

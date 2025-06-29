@@ -9,8 +9,8 @@ import { GubsComponent } from '../gubs';
   styleUrl: '../gubs.css'
 })
 export class NinthgubComponent extends GubsComponent {
-  override belt = '9° Gub - Faixa Cinza - "Início"';
-  override abstract = 'Representa o abandono da pureza e da inocência. O aluno está conhecendo os fundamentos do Taekwondo.';
+  override belt = '9° Gub - Faixa Cinza - Inocência';
+  override abstract = 'O Início. Representa o abandono da pureza e da inocência. O aluno está conhecendo os fundamentos do Taekwondo.';
   override poomsae = 'Poomsae - 품새 - "Formas":';
 
   constructor(router: Router) {
@@ -18,7 +18,7 @@ export class NinthgubComponent extends GubsComponent {
   };
 
   override poomsaeList = [
-    { name: 'Saju Ap Chagi', description: 'Chute frontal em quatro direções.' },
+    { name: 'Saju Ap Tchagi', description: 'Chute frontal em quatro direções.' },
     { name: 'Saju Djireugi', description: 'Soco em quatro direções.' }
   ];
 
@@ -47,13 +47,13 @@ export class NinthgubComponent extends GubsComponent {
   ];
 
   override balKiSulList = [
-    { name: 'Bandal Chagi', description: 'Chute em semi-circular.' },
-    { name: 'Ap Chagi', description: 'Chute frontal.' },
-    { name: 'Ap Oligui Chagi', description: 'Chute frontal com a perna esticada (subida e descida).' },
-    { name: 'Yop Oligui Chagi', description: 'Chute lateral com a perna esticada (subida e descida).' },
-    { name: 'An Chagi', description: 'Chute de fora para dentro.' },
-    { name: 'Pakat Chagi', description: 'Chute de dentro para fora.' },
-    { name: 'Dollyo Chagi', description: 'Chute circular.' }
+    { name: 'Bandal Tchagi', description: 'Chute semi-lateral.' },
+    { name: 'Ap Tchagi', description: 'Chute frontal.' },
+    { name: 'Ap Oligui Tchagi', description: 'Chute frontal com a perna esticada (subida e descida).' },
+    { name: 'Yop Oligui Tchagi', description: 'Chute lateral com a perna esticada (subida e descida).' },
+    { name: 'An Tchagi', description: 'Chute de fora para dentro.' },
+    { name: 'Pakat Tchagi', description: 'Chute de dentro para fora.' },
+    { name: 'Dollyo Tchagi', description: 'Chute circular.' }
   ];
 
   override ironList = [

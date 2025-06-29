@@ -4,6 +4,7 @@ import { NinthgubComponent } from './components/graduations/gubs/ninthgub/ninthg
 import { EighthgubComponent } from './components/graduations/gubs/eighthgub/eighthgub';
 import { GraduationsComponent } from './components/graduations/graduations';
 import { SeventhgubComponent } from './components/graduations/gubs/seventhgub/seventhgub';
+import { SixthgubComponent } from './components/graduations/gubs/sixthgub/sixthgub';
 
 export const routes: Routes = [
   { path: '', component: GraduationsComponent },
@@ -12,4 +13,5 @@ export const routes: Routes = [
   { path: 'graduacoes/nonogub', component: NinthgubComponent },
   { path: 'graduacoes/oitavogub', component: EighthgubComponent },
   { path: 'graduacoes/setimogub', component: SeventhgubComponent },
+  { path: 'graduacoes/sextogub', component: SixthgubComponent },
 ];
