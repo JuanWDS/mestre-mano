@@ -9,8 +9,8 @@ import { GubsComponent } from '../gubs';
   styleUrl: '../gubs.css'
 })
 export class EighthgubComponent extends GubsComponent {
-  override belt = '8° Gub - Faixa Amarela - "Terra Fértil"';
-  override abstract = 'Marca a preparação das bases. O aluno começa a compreender os fundamentos do Taekwondo.';
+  override belt = '8° Gub - Faixa Amarela - Esperança';
+  override abstract = 'A Terra é fértil. Marca a preparação das bases. O aluno começa a compreender os fundamentos do Taekwondo.';
   override poomsae = 'Poomsae Taegeuk - 태극 품새 - "Formas de Equilíbrio e Harmonia":';
 
   constructor(router: Router) {
@@ -35,14 +35,14 @@ export class EighthgubComponent extends GubsComponent {
   ];
 
   override konKyokList = [
-    { name: 'Sonnal Momtong Chigi', description: 'Golpe com a faca da mão (parte de fora da mão) na parte média (torso)' },
-    { name: 'Sonnal Dung Momtong Chigi', description: 'Golpe com o dorso da faca da mão (parte de dentro da mão) na parte média (torso)' }
+    { name: 'Sonnal Momtong Tchigi', description: 'Golpe com a faca da mão (parte de fora da mão) na parte média (torso)' },
+    { name: 'Sonnal Dung Momtong Tchigi', description: 'Golpe com o dorso da faca da mão (parte de dentro da mão) na parte média (torso)' }
   ];
 
   override balKiSulList = [
-    { name: 'Gulo Bandal Chagi', description: 'Chute em meia-lua avançando (buscando o alvo).' },
-    { name: 'Gulo Dollyo Chagi', description: 'Chute circular avançando (buscando o alvo).' },
-    { name: 'Gulo Yop Chagi', description: 'Chute lateral avançando (buscando o alvo).' }
+    { name: 'Gulo Bandal Tchagi', description: 'Chute semi-lateral avançando (buscando o alvo).' },
+    { name: 'Gulo Dollyo Tchagi', description: 'Chute circular avançando (buscando o alvo).' },
+    { name: 'Gulo Yop Tchagi', description: 'Chute lateral avançando (buscando o alvo).' }
   ];
 
   override ironList = [

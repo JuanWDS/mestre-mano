@@ -9,8 +9,8 @@ import { GubsComponent } from '../gubs';
   styleUrl: '../gubs.css'
 })
 export class TenthgubComponent extends GubsComponent {
-  override belt = '10° Gub - Faixa Branca - "Nascimento"';
-  override abstract = 'Representa a pureza e a inocência. O aluno ainda não conhece os fundamentos do Taekwondo.';
+  override belt = '10° Gub - Faixa Branca - Inocência';
+  override abstract = 'O nascimento. Representa a pureza e a inocência. O aluno ainda não conhece os fundamentos do Taekwondo.';
   override poomsae = 'Poomsae - 품새 - "Formas":';
 
   constructor(router: Router) {
@@ -18,7 +18,7 @@ export class TenthgubComponent extends GubsComponent {
   };
 
   override poomsaeList = [
-    { name: 'Saju Ap Chagi', description: 'Chute frontal em quatro direções.' }
+    { name: 'Saju Ap Tchagi', description: 'Chute frontal em quatro direções.' }
   ];
 
   override kibonJaseList = [
@@ -41,11 +41,11 @@ export class TenthgubComponent extends GubsComponent {
   ];
 
   override balKiSulList = [
-    { name: 'Bandal Chagi', description: 'Chute em meia-lua.' },
-    { name: 'Ap Chagi', description: 'Chute frontal.' },
-    { name: 'Ap Oligui Chagi', description: 'Chute frontal com a perna esticada (subida e descida).' },
-    { name: 'An Chagi', description: 'Chute de fora para dentro.' },
-    { name: 'Pakat Chagi', description: 'Chute de dentro para fora.' }
+    { name: 'Bandal Tchagi', description: 'Chute em meia-lua.' },
+    { name: 'Ap Tchagi', description: 'Chute frontal.' },
+    { name: 'Ap Oligui Tchagi', description: 'Chute frontal com a perna esticada (subida e descida).' },
+    { name: 'An Tchagi', description: 'Chute de fora para dentro.' },
+    { name: 'Pakat Tchagi', description: 'Chute de dentro para fora.' }
   ];
 
   override ironList = [
