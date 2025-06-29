@@ -27,4 +27,8 @@ export class GraduationsComponent {
     this.router.navigateByUrl('/graduacoes/setimogub');
   };
 
+  goToSixthgub(): void {
+    this.router.navigateByUrl('/graduacoes/sextogub');
+  };
+
 }

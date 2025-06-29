@@ -52,7 +52,7 @@ let poomsaeList = [
     description: 'O primeiro poomsae. Representa o nascimento, o começo de tudo, como o céu limpo. O praticante começa seu caminho com humildade e mente aberta.'
   },
   {
-    name: 'Poomsae Taegeuk Ee Jang - "Lago" - 2장 - ☱',
+    name: 'Poomsae Taegeuk Yi Jang - "Lago" - 2장 - ☱',
     meaning: '☱ Lago / Serenidade',
     description: 'Simboliza tranquilidade e calma. O aluno desenvolve disciplina e autocontrole, executando os movimentos com fluidez.'
   },

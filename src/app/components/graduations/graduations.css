@@ -81,6 +81,10 @@
   background-color: #ff9900;
 }
 
+#lightgreen {
+  background-color: #00cc00;
+}
+
 .graduation-container-belts-button:hover,
 .graduation-container-belts-button:focus {
   transform: scale(1.05);
