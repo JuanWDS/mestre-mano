@@ -41,11 +41,16 @@
 }
 
 .graduation-container-belts {
+  display: flex;
+  flex-direction: wrap;
   margin-bottom: 1rem;
   width: 75%;
-  display: flex;
-  align-items: center;
   justify-content: center;
+  gap: 20px;
+}
+
+.graduation-container-belts-column {
+  display: flex;
   flex-direction: column;
 }
 
@@ -55,13 +60,13 @@
   justify-content: center;
   padding: 0.5rem;
   margin: 0.8rem auto;
-  width: 15rem;
+  width: 17rem;
   max-width: 100%;
   font-weight: 700;
   font-size: 1rem;
   color: black;
   border: 1px solid black;
-  border-radius: 2px;
+  border-radius: 8px;
   cursor: pointer;
 }
 
@@ -81,8 +86,28 @@
   background-color: #ff9900;
 }
 
-#lightgreen {
+#green {
   background-color: #00cc00;
+}
+
+#darkgreen {
+  background-color: #006600;
+}
+
+#blue {
+  background-color: #0099ff;
+}
+
+#darkblue {
+  background-color: #0000ff;
+}
+
+#red {
+  background-color: #ff0000;
+}
+
+#darkred {
+  background-color: #ad0101;
 }
 
 .graduation-container-belts-button:hover,
@@ -91,37 +116,11 @@
   outline: none;
 }
 
-.taekwondo-inside {
-  display: none;
-}
-
-.taekwondo-outside {
-  padding: 1rem;
-  font-size: 4rem;
-  color: #e0e0e0;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  background: linear-gradient(90deg, #ff0000, #ffffff, #0000ff);
-  background-size: 200%;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: gradientMove 6s infinite linear;
-  text-align: center;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-  font-family: 'Anton', sans-serif;
-}
-
-@keyframes gradientMove {
-  0% { background-position: 0% }
-  100% { background-position: 200% }
-}
-
 @media screen and (max-width: 720px) {
   .graduation-container {
     padding: 1rem 1rem;
     background-color: rgba(0, 0, 0, 0.6);
-    max-width: 20rem;
+    max-width: 25rem;
   }
 
   .graduation-container-header-title{
@@ -136,38 +135,16 @@
   }
 
   .graduation-container-belts-button{
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     width: 12rem;
-  }
-
-  .taekwondo-inside {
-    display: block;
-    padding: 1rem;
-    font-size: 2.5rem;
-    color: #e0e0e0;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    background: linear-gradient(90deg, #ff0000, #ffffff, #0000ff);
-    background-size: 200%;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: gradientMove 6s infinite linear;
-    text-align: center;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-    font-family: 'Anton', sans-serif;
-  }
-
-  .taekwondo-outside {
-    display: none;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 430px) {
   .graduation-container {
     padding: 0.8rem 0.8rem;
     background-color: rgba(0, 0, 0, 0.6);
-    max-width: 16rem ;
+    max-width: 22rem ;
   }
 
   .graduation-container-header-title {
@@ -178,25 +155,19 @@
     font-size: 0.8rem;
   }
 
-  .taekwondo-inside {
-    display: block;
-    padding: 1rem;
-    font-size: 2rem;
-    color: #e0e0e0;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    background: linear-gradient(90deg, #ff0000, #ffffff, #0000ff);
-    background-size: 200%;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: gradientMove 6s infinite linear;
-    text-align: center;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-    font-family: 'Anton', sans-serif;
+  .graduation-container-belts-button{
+    font-size: 0.8rem;
+    width: 8rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .graduation-container {
+    max-width: 16rem ;
   }
 
-  .taekwondo-outside {
-    display: none;
+  .graduation-container-belts-button{
+    font-size: 0.7rem;
+    width: 7rem;
   }
 }

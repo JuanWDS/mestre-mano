@@ -16,7 +16,7 @@ let faixaList = [
     meaning: 'Terra arada. A preparação está feita. O aluno assimila melhor os fundamentos e está pronto para crescer.'
   },
   {
-    color: 'Verde Claro #00cc00',
+    color: 'Verde  #00cc00',
     meaning: 'Broto. A planta começa a surgir. O aluno mostra progresso técnico e desenvolvimento motor.'
   },
   {
@@ -24,7 +24,7 @@ let faixaList = [
     meaning: 'Crescimento. A planta se fortalece. O aluno aprofunda suas técnicas e adquire mais controle corporal.'
   },
   {
-    color: 'Azul Claro #0099ff',
+    color: 'Azul  #0099ff',
     meaning: 'Horizonte. A planta se eleva. O aluno começa a alcançar níveis mais elevados de disciplina e técnica.'
   },
   {
@@ -32,7 +32,7 @@ let faixaList = [
     meaning: 'Céu. A planta se estende ao céu. O aluno demonstra maturidade técnica e autocontrole.'
   },
   {
-    color: 'Vermelho Claro #ff0000',
+    color: 'Vermelho  #ff0000',
     meaning: 'Alerta. O aluno já desenvolveu habilidades poderosas. É hora de reforçar a consciência e o respeito.'
   },
   {
