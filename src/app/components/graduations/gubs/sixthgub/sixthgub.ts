@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
   styleUrl: '../gubs.css'
 })
 export class SixthgubComponent extends GubsComponent {
-  override belt = '6° Gub - Faixa Verde Claro - Crescimento';
+  override belt = '6° Gub - Faixa Verde - Crescimento';
   override abstract = 'O broto. A planta começa a surgir. O aluno mostra progresso técnico e desenvolvimento motor.';
   override poomsae = 'Poomsae Taegeuk - 태극 품새 - "Formas de Equilíbrio e Harmonia":';
 
