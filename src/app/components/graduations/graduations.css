@@ -140,11 +140,11 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 430px) {
   .graduation-container {
     padding: 0.8rem 0.8rem;
     background-color: rgba(0, 0, 0, 0.6);
-    max-width: 17rem ;
+    max-width: 22rem ;
   }
 
   .graduation-container-header-title {
@@ -158,5 +158,16 @@
   .graduation-container-belts-button{
     font-size: 0.8rem;
     width: 8rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .graduation-container {
+    max-width: 16rem ;
+  }
+
+  .graduation-container-belts-button{
+    font-size: 0.7rem;
+    width: 7rem;
   }
 }
