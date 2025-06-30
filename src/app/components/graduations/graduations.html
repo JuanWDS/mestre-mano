@@ -1,70 +1,106 @@
-<div class="taekwondo-outside">
-  Taekwondo<br>Mestre Mano
-</div>
-
 <div class="graduation-container">
-
-  <div class="taekwondo-inside">
-    Taekwondo<br>Mestre Mano
-  </div>
 
   <div class="graduation-container-header">
 
     <h1
       class="graduation-container-header-title"
     >
-      Graduações (Faixas):
+      Graduações:
     </h1>
 
     <p
       class="graduation-container-header-abstract"
     >
-      Graduações do Taekwondo e seus respectivos conhecimentos, necessários para realização dos exames de faixa.
+      Graduações do Taekwondo, com suas respectivas técnicas e conhecimentos.
     </p>
 
   </div>
 
   <div class="graduation-container-belts">
 
-    <button
-      (click)="goToTenthgub()"
-      id="white"
-      class="graduation-container-belts-button"
-    >
-      10° Gub - Faixa Branca
-    </button>
+    <div class="graduation-container-belts-column">
+      <button
+        (click)="goToTenthgub()"
+        id="white"
+        class="graduation-container-belts-button"
+      >
+        10° Gub - Faixa Branca
+      </button>
 
-    <button
-      (click)="goToNingthgub()"
-      id="gray"
-      class="graduation-container-belts-button"
-    >
-      9° Gub - Faixa Cinza
-    </button>
+      <button
+        (click)="goToEighthgub()"
+        id="yellow"
+        class="graduation-container-belts-button"
+      >
+        8° Gub - Faixa Amarela
+      </button>
 
-    <button
-      (click)="goToEighthgub()"
-      id="yellow"
-      class="graduation-container-belts-button"
-    >
-      8° Gub - Faixa Amarela
-    </button>
+      <button
+        (click)="goToSixthgub()"
+        id="green"
+        class="graduation-container-belts-button"
+      >
+        6° Gub - Faixa Verde
+      </button>
 
-    <button
-      (click)="goToSeventhgub()"
-      id="orange"
-      class="graduation-container-belts-button"
-    >
-      7° Gub - Faixa Laranja
-    </button>
+      <button
+        (click)="goToThirdgub()"
+        id="blue"
+        class="graduation-container-belts-button"
+      >
+        4° Gub - Faixa Azul
+      </button>
 
-    <button
-      (click)="goToSixthgub()"
-      id="lightgreen"
-      class="graduation-container-belts-button"
-    >
-      6° Gub - Faixa Verde Claro
-    </button>
+      <button
+        (click)="goToSecondgub()"
+        id="red"
+        class="graduation-container-belts-button"
+      >
+        2° Gub - Faixa Vermelha
+      </button>
+    </div>
+
+    <div class="graduation-container-belts-column">
+      <button
+        (click)="goToNingthgub()"
+        id="gray"
+        class="graduation-container-belts-button"
+      >
+        9° Gub - Faixa Cinza
+      </button>
+
+      <button
+        (click)="goToSeventhgub()"
+        id="orange"
+        class="graduation-container-belts-button"
+      >
+        7° Gub - Faixa Laranja
+      </button>
+
+      <button
+        (click)="goToFifthgub()"
+        id="darkgreen"
+        class="graduation-container-belts-button"
+      >
+        5° Gub - Faixa Verde Escura
+      </button>
+
+      <button
+        (click)="goToSecondgub()"
+        id="darkblue"
+        class="graduation-container-belts-button"
+      >
+        3° Gub - Faixa Azul Escura
+      </button>
+
+      <button
+        (click)="goToFirstgub()"
+        id="darkred"
+        class="graduation-container-belts-button"
+      >
+        1° Gub - Faixa Vermelha Escura
+      </button>
+    </div>
 
   </div>
 

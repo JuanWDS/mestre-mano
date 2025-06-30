@@ -31,4 +31,24 @@ export class GraduationsComponent {
     this.router.navigateByUrl('/graduacoes/sextogub');
   };
 
+  goToFifthgub(): void {
+    this.router.navigateByUrl('/graduacoes/quintogub');
+  };
+
+  goToFourthgub(): void {
+    this.router.navigateByUrl('/graduacoes/quartogub');
+  };
+
+  goToThirdgub(): void {
+    this.router.navigateByUrl('/graduacoes/terceirogub');
+  };
+
+  goToSecondgub(): void {
+    this.router.navigateByUrl('/graduacoes/segundogub');
+  };
+
+  goToFirstgub(): void {
+    this.router.navigateByUrl('/graduacoes/primeirogub');
+  };
+
 }
