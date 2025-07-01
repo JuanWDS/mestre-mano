@@ -32,9 +32,9 @@ export class FourthgubComponent extends GubsComponent{
   ];
 
   override konKyokList = [
-    { name: 'Me-Jumok Neryo Tchigi', description: 'Golpe descendente em direção à cabeça com a parte inferior da mão.' },
-    { name: 'Dung-Jumok Pakat Olgul Tchigi', description: 'Golpe de fora para dentro com a parte de trás da mão em direção à cabeça.' },
-    { name: 'Palkup Pyonjok Tchigi', description: 'Golpe com o cotovelo puxando o alvo para si.' }
+    { name: 'Me-Jumok Neryo TTchigi', description: 'Golpe descendente em direção à cabeça com a parte inferior da mão.' },
+    { name: 'Dung-Jumok Pakat Olgul TTchigi', description: 'Golpe de fora para dentro com a parte de trás da mão em direção à cabeça.' },
+    { name: 'Palkup Pyonjok TTchigi', description: 'Golpe com o cotovelo puxando o alvo para si.' }
   ];
 
   override balKiSulList = [

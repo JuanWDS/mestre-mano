@@ -35,8 +35,8 @@ export class EighthgubComponent extends GubsComponent {
   ];
 
   override konKyokList = [
-    { name: 'Sonnal Momtong Tchigi', description: 'Golpe com a faca da mão (parte de fora da mão) na parte média (torso)' },
-    { name: 'Sonnal Dung Momtong Tchigi', description: 'Golpe com o dorso da faca da mão (parte de dentro da mão) na parte média (torso)' }
+    { name: 'Sonnal Momtong TTchigi', description: 'Golpe com a faca da mão (parte de fora da mão) na parte média (torso)' },
+    { name: 'Sonnal Dung Momtong TTchigi', description: 'Golpe com o dorso da faca da mão (parte de dentro da mão) na parte média (torso)' }
   ];
 
   override balKiSulList = [

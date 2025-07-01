@@ -31,9 +31,9 @@ export class SixthgubComponent extends GubsComponent {
   ];
 
   override konKyokList = [
-    { name: 'Sonnal Mok tchigi', description: 'Golpe com a faca da mão (parte de fora da mão) na altura do pescoço.' },
+    { name: 'Sonnal Mok tTchigi', description: 'Golpe com a faca da mão (parte de fora da mão) na altura do pescoço.' },
     { name: 'Pyon Son Cut tchirigi', description: 'Perfuração com a ponta dos dedos (mão na vertical) na altura da garganta.' },
-    { name: 'Palkup Dollyo tchigi', description: 'Golpe circular com o cotovelo.' }
+    { name: 'Palkup Dollyo tTchigi', description: 'Golpe circular com o cotovelo.' }
   ];
 
   override balKiSulList = [
