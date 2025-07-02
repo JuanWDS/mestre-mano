@@ -18,11 +18,11 @@ export class FourthgubComponent extends GubsComponent{
   };
 
   override poomsaeList = [
-    { name: 'Poomsae Taegeuk Oh Jang - "Vento" - 5장 - ☴', description: 'Representa flexibilidade e persistência. Os movimentos combinam suavidade com força, refletindo maturidade técnica.' }
+    { name: 'Poomsae Taegeuk Oh Jang - "Vento" - 5장 - ☴ - 20 Movimentos', description: 'Representa flexibilidade e persistência. Os movimentos combinam suavidade com força, refletindo maturidade técnica.' }
   ];
 
   override kibonJaseList = [
-    { name: 'Dwi Koa Sogi', description: 'base com a perna de trás cruzada atrás da perna da frente (o pé cruzado deve estar em Ap Chuk).' },
+    { name: 'Dwi Koa Sogi', description: 'Base com a perna de trás cruzada atrás da perna da frente (o pé cruzado deve estar em Ap Tchuk).' },
     { name: 'Sogi', description: 'Base com os pés em "L" (sem flexionar os joelhos).' },
   ];
 
@@ -32,9 +32,9 @@ export class FourthgubComponent extends GubsComponent{
   ];
 
   override konKyokList = [
-    { name: 'Me-Jumok Neryo TTchigi', description: 'Golpe descendente em direção à cabeça com a parte inferior da mão.' },
-    { name: 'Dung-Jumok Pakat Olgul TTchigi', description: 'Golpe de fora para dentro com a parte de trás da mão em direção à cabeça.' },
-    { name: 'Palkup Pyonjok TTchigi', description: 'Golpe com o cotovelo puxando o alvo para si.' }
+    { name: 'Me Jumok Neryo Tchigi', description: 'Golpe descendente em direção à cabeça com a parte inferior da mão.' },
+    { name: 'Dung Jumok Pakat Olgul Tchigi', description: 'Golpe com o dorso do punho cerrado de fora para dentro, na altura do rosto.' },
+    { name: 'Palkup Pyonjok Tchigi', description: 'Golpe com o cotovelo puxando o alvo para si.' }
   ];
 
   override balKiSulList = [
@@ -49,6 +49,7 @@ export class FourthgubComponent extends GubsComponent{
 
   override ironList = [
     { question: 'Qual o significado do Taegeuk Oh Jang?' },
+    { question: 'Quantos movimentos tem o Taegeuk Oh Jang?' },
     { question: 'Qual o significado da sua Faixa?' }
   ];
 

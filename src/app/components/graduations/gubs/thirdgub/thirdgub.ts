@@ -18,33 +18,34 @@ export class ThirdgubComponent extends GubsComponent {
   };
 
   override poomsaeList = [
-    { name: 'Poomsae Taegeuk Oh Jang - "Vento" - 5장 - ☴', description: 'Representa flexibilidade e persistência. Os movimentos combinam suavidade com força, refletindo maturidade técnica.' }
+    { name: 'Poomsae Taegeuk Yuk Jang - "Água" - 6장 - ☵ - 19 Movimentos', description: 'Simboliza fluidez, inteligência e estratégia. O praticante aprende a se adaptar com leveza, mesmo diante de desafios.' }
   ];
 
   override kibonJaseList = [
-    { name: 'Ap Koa sogi', description: 'Base cruzada com a perna esquerda passando pela frente da perna base' },
+    { name: 'Ap Koa Sogi', description: 'Base com a perna de trás cruzada à frente da perna da frente (o pé cruzado deve estar em Ap Tchuk).' },
   ];
 
   override makkiList = [
-    { name: 'Palmok Pakat Momtong Makki', description: 'Defesa usando a parte externa do antebraço elevando-o para frente.' },
-    { name: 'Palmok Retchio Olgul Makki', description: 'Defesa elevando os dois antebraços para cima na altura da cabeça com punhos fechados.' },
-    { name: 'Sonnal Dum Momtong Makki', description: 'Defesa com a palma da mão voltada para fora, defendendo o tronco ' }
+    { name: 'Palmok Pakat Momtong Makki em Duit Kubi Sogi', description: 'Defesa com o antebraço na parte média (torso) na base Duit Kubi.' },
+    { name: 'Palmok Retchio Olgul Makki em Ap Kubi Sogi', description: 'Defesa com os dois antebraços (aos dois lados e ao mesmo tempo) na parte alta (acima dos ombros) na base Ap Kubi.' },
+    { name: 'Sonnal Dung Momtong Makki', description: 'Defesa com o dorso da faca da mão (parte de dentro da mão) na parte média (torso).' }
   ];
 
   override konKyokList = [
-    { name: 'Sonnal Geppum mok Tchigi', description: 'Ataque  utilizando a lateral da mão aberta com a palma para cima,tendo como alvo o pescoço.' },
-    { name: 'Pion son cut Opo tchirigui', description: 'Estocada com as pontas dos dedos na vertical.' },
+    { name: '!!!Sonnal Geppum Mok Tchigi!!!', description: 'Golpe com uma mão (faca da mão) à frente (na altura do pescoço) e a outra mão protegendo na parte alta (acima dos ombros).' },
+    { name: 'Pion Son Cut Opo Tchirigui', description: 'Perfuração com a ponta dos dedos (mão na horizontal) na altura da garganta.' },
   ];
 
   override balKiSulList = [
-    { name: 'Jejeri Bandal chagi', description: 'Técnica de chute semi-lateral permanecendo no mesmo lugar na costela. ' },
-    { name: 'Jejeri Dollyo chagi', description: 'Técnica de chute circular permanecendo no mesmo lugar na altura da cabeça.' },
-    { name: 'Jejeri Ap chagi', description: 'Técnica de chute frontal permanecendo no mesmo lugar utilizando a sola do pé.' },
-    { name: 'Jejeri Yop chagi', description: 'Técnica de chute lateral permanecendo no mesmo lugar.' }
+    { name: 'Jejeri Bandal Tchagi', description: 'Chute semi-lateral com a perna da frente.' },
+    { name: 'Jejeri Dollyo Tchagi', description: 'Chute circular com a perna da frente.' },
+    { name: 'Jejeri Ap Tchagi', description: 'Chute frontal com a perna da frente.' },
+    { name: 'Jejeri Yop Tchagi', description: 'Chute lateral com a perna da frente.' }
   ];
 
   override ironList = [
-    { question: 'Qual o significado do Taegeuk Oh Jang?' },
+    { question: 'Qual o significado do Taegeuk Yuk Jang?' },
+    { question: 'Quantos movimentos tem o Taegeuk Yuk Jang?' },
     { question: 'Qual o significado da sua Faixa?' }
   ];
 

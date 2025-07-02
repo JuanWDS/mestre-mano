@@ -18,7 +18,7 @@ export class EighthgubComponent extends GubsComponent {
   };
 
   override poomsaeList = [
-    { name: 'Poomsae Taegeuk Il Jang - "Céu" - 1장 - ☰', description: 'O primeiro poomsae. Representa o nascimento, o começo de tudo, como o céu limpo. O praticante começa seu caminho com humildade e mente aberta.' }
+    { name: 'Poomsae Taegeuk Il Jang - "Céu" - 1장 - ☰ - 18 Movimentos', description: 'O primeiro poomsae. Representa o nascimento, o começo de tudo, como o céu limpo. O praticante começa seu caminho com humildade e mente aberta.' }
   ];
 
   override kibonJaseList = [
@@ -35,8 +35,8 @@ export class EighthgubComponent extends GubsComponent {
   ];
 
   override konKyokList = [
-    { name: 'Sonnal Momtong TTchigi', description: 'Golpe com a faca da mão (parte de fora da mão) na parte média (torso)' },
-    { name: 'Sonnal Dung Momtong TTchigi', description: 'Golpe com o dorso da faca da mão (parte de dentro da mão) na parte média (torso)' }
+    { name: 'Sonnal Momtong Tchigi', description: 'Golpe com a faca da mão (parte de fora da mão) na parte média (torso)' },
+    { name: 'Sonnal Dung Momtong Tchigi', description: 'Golpe com o dorso da faca da mão (parte de dentro da mão) na parte média (torso)' }
   ];
 
   override balKiSulList = [
@@ -49,6 +49,7 @@ export class EighthgubComponent extends GubsComponent {
     { question: 'Qual a capital do Taekwondo?' },
     { question: 'Quem trouxe o Taekwondo para o Brasil?' },
     { question: 'Qual o significado do Taegeuk Il Jang?' },
+    { question: 'Quantos movimentos tem o Taegeuk Il Jang?' },
     { question: 'Qual o significado da sua Faixa?' }
   ];
 
