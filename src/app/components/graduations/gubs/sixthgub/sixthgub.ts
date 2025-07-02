@@ -10,7 +10,7 @@ import { Router } from '@angular/router';
 })
 export class SixthgubComponent extends GubsComponent {
   override belt = '6° Gub - Faixa Verde - Crescimento';
-  override abstract = 'O broto. A planta começa a surgir. O aluno mostra progresso técnico e desenvolvimento motor.';
+  override abstract = 'A planta começa a surgir. O aluno mostra progresso técnico e desenvolvimento motor.';
   override poomsae = 'Poomsae Taegeuk - 태극 품새 - "Formas de Equilíbrio e Harmonia":';
 
   constructor(router: Router) {
@@ -18,7 +18,7 @@ export class SixthgubComponent extends GubsComponent {
   };
 
   override poomsaeList = [
-    { name: 'Poomsae Taegeuk Sam Jang - "Fogo" - 3장 - ☲', description: 'Representa energia e paixão. Os movimentos tornam-se mais complexos, e o aluno começa a brilhar com autoconfiança.' }
+    { name: 'Poomsae Taegeuk Sam Jang - "Fogo" - 3장 - ☲ - 20 Movimentos', description: 'Representa energia e paixão. Os movimentos tornam-se mais complexos, e o aluno começa a brilhar com autoconfiança.' }
   ];
 
   override kibonJaseList = [
@@ -31,9 +31,9 @@ export class SixthgubComponent extends GubsComponent {
   ];
 
   override konKyokList = [
-    { name: 'Sonnal Mok tchigi', description: 'Golpe com a faca da mão (parte de fora da mão) na altura do pescoço.' },
-    { name: 'Pyon Son Cut tchirigi', description: 'Perfuração com a ponta dos dedos (mão na vertical) na altura da garganta.' },
-    { name: 'Palkup Dollyo tchigi', description: 'Golpe circular com o cotovelo.' }
+    { name: 'Sonnal Mok Tchigi', description: 'Golpe com a faca da mão (parte de fora da mão) na altura do pescoço.' },
+    { name: 'Pyon Son Cut Tchirigi', description: 'Perfuração com a ponta dos dedos (mão na vertical) na altura da garganta.' },
+    { name: 'Palkup Dollyo Tchigi', description: 'Golpe circular com o cotovelo.' }
   ];
 
   override balKiSulList = [
@@ -44,6 +44,7 @@ export class SixthgubComponent extends GubsComponent {
 
   override ironList = [
     { question: 'Qual o significado do Taegeuk Sam Jang?' },
+    { question: 'Quantos movimentos tem o Taegeuk Sam Jang?' },
     { question: 'Qual o significado da sua Faixa?' }
   ];
 

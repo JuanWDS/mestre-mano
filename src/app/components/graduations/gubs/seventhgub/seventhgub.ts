@@ -18,7 +18,7 @@ export class SeventhgubComponent extends GubsComponent {
   };
 
   override poomsaeList = [
-    { name: 'Poomsae Taegeuk Yi Jang - "Lago" - 2장 - ☱', description: 'Simboliza tranquilidade e calma. O aluno desenvolve disciplina e autocontrole, executando os movimentos com fluidez.' }
+    { name: 'Poomsae Taegeuk Yi Jang - "Lago" - 2장 - ☱ - 18 Movimentos', description: 'Simboliza tranquilidade e calma. O aluno desenvolve disciplina e autocontrole, executando os movimentos com fluidez.' }
   ];
 
   override kibonJaseList = [
@@ -39,6 +39,7 @@ export class SeventhgubComponent extends GubsComponent {
 
   override ironList = [
     { question: 'Qual o significado do Taegeuk Yi Jang?' },
+    { question: 'Quantos movimentos tem o Taegeuk Yi Jang?' },
     { question: 'Qual o significado da sua Faixa?' }
   ];
 
