@@ -32,10 +32,10 @@ export class FifthgubComponent extends GubsComponent {
   ];
 
   override konKyokList = [
-    { name: 'Sonnal Gebipum Mok Chigi', description: 'Golpe com a mão em faca na garganta, com a outra mão protegendo acima da cabeça.' },
-    { name: 'Dung Jumok Olgul ap chigi', description: 'Golpe frontal com o dorso do punho na altura do rosto. ' },
+    { name: 'Sonnal Gebipum Mok Tchigi', description: 'Golpe com a mão em faca na garganta, com a outra mão protegendo acima da cabeça.' },
+    { name: 'Dung Jumok Olgul ap Tchigi', description: 'Golpe frontal com o dorso do punho na altura do rosto. ' },
     { name: 'Pion Son Cut Seuo Tchirigui', description: 'Estocada para frente com a ponta dos dedos em posição vertical enquanto apoiado com o outro braço de mão aberta' },
-    { name: 'Palkup Olyo Chigi', description: 'Golpe subindo frontalmente com o cotovelo ' },
+    { name: 'Palkup Olyo Tchigi', description: 'Golpe subindo frontalmente com o cotovelo ' },
   ];
 
   override balKiSulList = [
