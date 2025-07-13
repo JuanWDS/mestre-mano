@@ -32,15 +32,15 @@ export class FifthgubComponent extends GubsComponent {
   ];
 
   override konKyokList = [
-    { name: 'Sonnal Gebipum Mok Chigi', description: 'Golpe com a mão em faca na garganta, com a outra mão protegendo acima da cabeça.' },
-    { name: 'Dung Jumok Olgul ap chigi', description: 'Golpe frontal com o dorso do punho na altura do rosto. ' },
+    { name: 'Sonnal Gebipum Mok Tchigi', description: 'Golpe com a mão em faca na garganta, com a outra mão protegendo acima da cabeça.' },
+    { name: 'Dung Jumok Olgul Ap Tchigi', description: 'Golpe frontal com o dorso do punho na altura do rosto. ' },
     { name: 'Pion Son Cut Seuo Tchirigui', description: 'Estocada para frente com a ponta dos dedos em posição vertical enquanto apoiado com o outro braço de mão aberta' },
-    { name: 'Palkup Olyo Chigi', description: 'Golpe subindo frontalmente com o cotovelo ' },
+    { name: 'Palkup Olyo Tchigi', description: 'Golpe subindo frontalmente com o cotovelo ' },
   ];
 
   override balKiSulList = [
-    { name: 'Mon Dollyo Chagi', description: 'Chute giratório na altura da cabeça,utilizando o calcanhar para atingir o alvo' },
-    { name: 'Mon Rejon An Chagi', description: 'Chute giratorio fazendo o movimento da perna de fora para dentro ' },
+    { name: 'Mon Dollyo Tchagi', description: 'Chute giratório na altura da cabeça,utilizando o calcanhar para atingir o alvo' },
+    { name: 'Mon Rejon An Tchagi', description: 'Chute giratorio fazendo o movimento da perna de fora para dentro ' },
     { name: 'Tuit Dubon Bandal', description: 'Salto com dois chutes semi-laterais alternados ' },
   ];
 

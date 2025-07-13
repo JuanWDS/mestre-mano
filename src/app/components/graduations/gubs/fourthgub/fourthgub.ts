@@ -41,10 +41,10 @@ export class FourthgubComponent extends GubsComponent{
     { name: 'Tuit Mom Pakat Tchagi', description: 'Chute de dentro para fora (girando por trás e saltando).' },
     { name: 'Tuit Yop Tchagi', description: 'Chute lateral (saltando).' },
     { name: 'Tuit Mom Tit Tchagi', description: 'Chute para trás (girando por trás e saltando) (coice).' },
-    { name: 'Tuit Gulo Bandal Chagi', description: 'Chute semi-lateral (avançando e saltando).' },
-    { name: 'Tuit Gulo Dollyo Chagi', description: 'Chute circular (avançando e saltando).' },
-    { name: 'Tuit Gulo Yop Chagi', description: 'Chute lateral (avançando e saltando).' },
-    { name: 'Tuit Gulo Ap Chagi', description: 'Chute frontal (avançando e saltando).' },
+    { name: 'Tuit Gulo Bandal Tchagi', description: 'Chute semi-lateral (avançando e saltando).' },
+    { name: 'Tuit Gulo Dollyo Tchagi', description: 'Chute circular (avançando e saltando).' },
+    { name: 'Tuit Gulo Yop Tchagi', description: 'Chute lateral (avançando e saltando).' },
+    { name: 'Tuit Gulo Ap Tchagi', description: 'Chute frontal (avançando e saltando).' },
   ];
 
   override ironList = [
